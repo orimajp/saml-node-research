@@ -1,0 +1,14 @@
+{
+  "name": "saml-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "saml-idp": "saml-idp --acs http://localhost:7000/auth/saml --aud mock-audience"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "saml-idp": "^1.2.1"
+  }
+}
